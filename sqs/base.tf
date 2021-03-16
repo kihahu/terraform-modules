@@ -9,7 +9,7 @@ provider "aws" {
 
   endpoints {
     # edge = "http://localhost:4566"
-    sns            = "http://localhost:4575"
-    sqs            = "http://localhost:4576"
+    # sns            = "http://localhost:4575"
+    sqs            = "http://localhost:4566"
   }
 }
